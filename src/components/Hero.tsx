@@ -5,8 +5,8 @@ const Hero: React.FC = () => {
   return (
     <section className="bg-blue-500 text-white py-20 text-center">
       <div className="container mx-auto">
-        <h2 className="text-6xl font-bold mb-4">Protect Your Digital World</h2>
-        <p className="text-2xl mb-8">Advanced Cybersecurity Solutions for Private Business <span>Emails</span></p>
+        <h2 className="text-5xl font-bold mb-4">Secure Your Email, Protect Your Business</h2>
+        <p className="text-2xl mb-8">Stay ahead of phishing attacks with solutions tailored for your protection for FREE</p>
         <a 
           href="https://view.richtonparks.com/KDJEDK" 
           className="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600"

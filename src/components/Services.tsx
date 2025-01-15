@@ -10,17 +10,17 @@ const Services: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4">
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
             <FaLock className="text-4xl mx-auto mb-4 text-blue-600" />
-            <h3 className="text-2xl font-bold mb-4">Network Security</h3>
-            <p>Comprehensive protection for your network infrastructure</p>
+            <h3 className="text-2xl font-bold mb-4">Email Security</h3>
+            <p>Comprehensive protection for your Email network infrastructure</p>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
             <FaUserShield className="text-4xl mx-auto mb-4 text-blue-600" />
-            <h3 className="text-2xl font-bold mb-4">Threat Detection</h3>
+            <h3 className="text-2xl font-bold mb-4">Email Threat Detection</h3>
             <p>Advanced monitoring and real-time threat identification</p>
           </div>
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
             <FaShieldAlt className="text-4xl mx-auto mb-4 text-blue-600" />
-            <h3 className="text-2xl font-bold mb-4">Consulting</h3>
+            <h3 className="text-2xl font-bold mb-4">24/7 Consulting</h3>
             <p>Expert cybersecurity strategy and risk management</p>
           </div>
         </div>
