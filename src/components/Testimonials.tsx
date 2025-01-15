@@ -9,15 +9,15 @@ const Testimonials: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 px-4">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="mb-4 italic">"SecureNet transformed our cybersecurity approach!"</p>
-            <p className="font-semibold">- John Doe, CEO TechCorp</p>
+            <p className="font-semibold">- Jake Brennan, CEO TechCorp</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="mb-4 italic">"Incredible protection and support!"</p>
-            <p className="font-semibold">- Jane Smith, CTO InnovateSoft</p>
+            <p className="font-semibold">- Sarah Johnson, CTO InnovateSoft</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="mb-4 italic">"The most reliable security partner we've worked with."</p>
-            <p className="font-semibold">- Mike Johnson, Founder StartupShield</p>
+            <p className="font-semibold">- Emily Davis, Founder StartupShield</p>
           </div>
         </div>
       </div>
