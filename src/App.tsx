@@ -6,8 +6,6 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import logo from './logo.svg';
-import './App.css';
 
 const App: React.FC = () => {
   return (
