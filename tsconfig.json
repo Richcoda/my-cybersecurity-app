@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "esModuleInterop": true,
+      "jsx": "react-jsx",  // This ensures JSX works properly with React 17 and newer
+      "lib": ["dom", "es2015"],
+      "types": ["react", "react-dom"],  // Ensure these are listed here
+      "noImplicitAny": true,  // Disallows the use of the 'any' type
+      "skipLibCheck": true,   // Skip type checking of declaration files for faster compilation
+      "resolveJsonModule": true, // Enables importing JSON files as modules
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
+  
