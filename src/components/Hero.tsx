@@ -10,6 +10,8 @@ const Hero: React.FC = () => {
         <a 
           href="https://view.richtonparks.com/KDJEDK" 
           className="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Learn More
         </a>
