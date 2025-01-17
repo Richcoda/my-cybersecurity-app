@@ -17,8 +17,11 @@ const App: React.FC = () => {
       <Testimonials />
       <ContactForm />
       <Footer />
+      <SpeedInsights />
     </div>
+
   );
 };
+
 
 export default App;
