@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           <a href="https://view.richtonparks.com/KDJEDK" className="hover:underline" target="_blank"
             rel="noopener noreferrer">Terms of Service</a>
         </div>
-        <p>&copy; 2025 SecureNet. All Rights Reserved.</p>
+        <p>&copy; 2025 Microsoft CyberNet. All Rights Reserved.</p>
       </div>
     </footer>
   );
